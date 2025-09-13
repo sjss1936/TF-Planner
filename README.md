@@ -1,6 +1,4 @@
 # TF-Planner
 TF-Planner
 
-git test
-
-git test2
+git test용
