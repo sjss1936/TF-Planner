@@ -79,7 +79,7 @@ const MessageModal: React.FC = () => {
   const handleStartNewChat = () => {
     if (selectedParticipants.length > 0 && currentUser) {
       const participantIds = selectedParticipants.map(p => p.id);
-      const newConvId = startNewConversation(participantIds, allUsers);
+      const newConvId = startNewConversation(participantIds);
       setActiveConversationId(newConvId);
       setShowNewChatPanel(false);
       setSelectedParticipants([]);
